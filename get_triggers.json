@@ -1,0 +1,56 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "http://example.com/root.json",
+  "type": "array",
+  "title": "The Root Schema",
+  "items": {
+    "$id": "#/items",
+    "type": "object",
+    "title": "The Items Schema",
+    "required": [
+      "triggerId",
+      "isActive",
+      "hasExceededAttempts",
+      "isPossibleToWin"
+    ],
+    "properties": {
+      "triggerId": {
+        "$id": "#/items/properties/triggerId",
+        "type": "integer",
+        "title": "The Triggerid Schema",
+        "default": 0,
+        "examples": [
+          111
+        ]
+      },
+      "isActive": {
+        "$id": "#/items/properties/isActive",
+        "type": "boolean",
+        "title": "The Isactive Schema",
+        "default": false,
+        "examples": [
+          true
+        ]
+      },
+      "hasExceededAttempts": {
+        "$id": "#/items/properties/hasExceededAttempts",
+        "type": "boolean",
+        "title": "The Hasexceededattempts Schema",
+        "default": false,
+        "examples": [
+          false
+        ]
+      },
+      "isPossibleToWin": {
+        "$id": "#/items/properties/isPossibleToWin",
+        "type": "boolean",
+        "title": "The Ispossibletowin Schema",
+        "default": false,
+        "examples": [
+          true
+        ]
+      }
+    }
+  }
+}
