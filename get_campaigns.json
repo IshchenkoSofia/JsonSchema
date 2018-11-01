@@ -36,7 +36,6 @@
           "examples": [
             "Påskeskrab"
           ],
-          "pattern": "^(.*)$"
         },
         "Picture": {
           "$id": "#/properties/Campaign/properties/Picture",
@@ -46,7 +45,6 @@
           "examples": [
             "https://dev-coop-medlemsapp.s1.umbraco.io/media/5723/kims_campaign_750x400px.jpg"
           ],
-          "pattern": "^(.*)$"
         },
         "InfoPicture": {
           "$id": "#/properties/Campaign/properties/InfoPicture",
@@ -56,7 +54,6 @@
           "examples": [
             "https://dev-coop-medlemsapp.s1.umbraco.io/media/5722/ticket-intro-750x1124-px_2.jpg"
           ],
-          "pattern": "^(.*)$"
         },
         "ValidFrom": {
           "$id": "#/properties/Campaign/properties/ValidFrom",
@@ -66,7 +63,6 @@
           "examples": [
             "2018-10-21T11:42:01Z"
           ],
-          "pattern": "^(.*)$"
         },
         "ValidTo": {
           "$id": "#/properties/Campaign/properties/ValidTo",
@@ -76,7 +72,6 @@
           "examples": [
             "2018-12-20T12:42:06Z"
           ],
-          "pattern": "^(.*)$"
         },
         "TermsAndConditions": {
           "$id": "#/properties/Campaign/properties/TermsAndConditions",
@@ -86,7 +81,6 @@
           "examples": [
             "Konkurrencebetingelser\nCoop trækker lod blandt alle deltagere om 1.000 x Sødam kylling. Konkurrencen slutter den 02.07.2017. Vinderne udtrækkes løbende og vil modtage præmien i Medlemsapp'en umiddelbart efter spillet afsluttes. Præmien skal afhentes indenfor 7 dage efter præmien er vundet. Ansatte i Coop-koncernen og brugsforeningerne samt medlemmer af deres husstande kan ikke deltage i konkurrencen."
           ],
-          "pattern": "^(.*)$"
         },
         "Priority": {
           "$id": "#/properties/Campaign/properties/Priority",
@@ -114,7 +108,6 @@
           "examples": [
             "https://dev-coop-medlemsapp.s1.umbraco.io/media/5725/ticket-unscratched-750x1124-px.jpg"
           ],
-          "pattern": "^(.*)$"
         },
         "TicketLooser": {
           "$id": "#/properties/Campaign/properties/TicketLooser",
@@ -124,7 +117,6 @@
           "examples": [
             "https://dev-coop-medlemsapp.s1.umbraco.io/media/5726/ticket-looser-750x1124-px-vs-3-med-streger.jpg"
           ],
-          "pattern": "^(.*)$"
         },
         "TicketWinner": {
           "$id": "#/properties/Campaign/properties/TicketWinner",
@@ -134,7 +126,6 @@
           "examples": [
             "https://dev-coop-medlemsapp.s1.umbraco.io/media/5724/ticket-winner-750x1124-px-vs-1-med-streger.jpg"
           ],
-          "pattern": "^(.*)$"
         }
       }
     },
@@ -166,7 +157,6 @@
             "examples": [
               "Sofi test game 1"
             ],
-            "pattern": "^(.*)$"
           },
           "Picture": {
             "$id": "#/properties/ExternalWebGameList/items/properties/Picture",
@@ -176,7 +166,6 @@
             "examples": [
               "https://dev-coop-medlemsapp.s1.umbraco.io/media/7245/julekalender.png"
             ],
-            "pattern": "^(.*)$"
           },
           "InfoPicture": {
             "$id": "#/properties/ExternalWebGameList/items/properties/InfoPicture",
@@ -186,7 +175,6 @@
             "examples": [
               "https://dev-coop-medlemsapp.s1.umbraco.io/media/7246/750x1124_skrabespil.jpg"
             ],
-            "pattern": "^(.*)$"
           },
           "ValidFrom": {
             "$id": "#/properties/ExternalWebGameList/items/properties/ValidFrom",
@@ -196,7 +184,6 @@
             "examples": [
               "2018-09-20T10:39:12Z"
             ],
-            "pattern": "^(.*)$"
           },
           "ValidTo": {
             "$id": "#/properties/ExternalWebGameList/items/properties/ValidTo",
@@ -206,7 +193,6 @@
             "examples": [
               "2018-12-16T13:39:14Z"
             ],
-            "pattern": "^(.*)$"
           },
           "TermsAndConditions": {
             "$id": "#/properties/ExternalWebGameList/items/properties/TermsAndConditions",
@@ -216,7 +202,6 @@
             "examples": [
               "terms"
             ],
-            "pattern": "^(.*)$"
           },
           "Priority": {
             "$id": "#/properties/ExternalWebGameList/items/properties/Priority",
@@ -244,7 +229,6 @@
             "examples": [
               "https://spil.coopmedlem.dk/coop-chokolade"
             ],
-            "pattern": "^(.*)$"
           }
         }
       }
@@ -266,7 +250,6 @@
           "examples": [
             "ok"
           ],
-          "pattern": "^(.*)$"
         },
         "Exception": {
           "$id": "#/properties/Status/properties/Exception",
