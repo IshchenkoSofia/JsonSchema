@@ -1,0 +1,22 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "http://example.com/root.json",
+  "type": "object",
+  "title": "The Root Schema",
+  "required": [
+    "ticketId"
+  ],
+  "properties": {
+    "ticketId": {
+      "$id": "#/properties/ticketId",
+      "type": "string",
+      "title": "The Ticketid Schema",
+      "default": "",
+      "examples": [
+        "9f400e4b-ff23-41b4-ad59-ac2f99c6a890"
+      ],
+      "pattern": "^(.*)$"
+    }
+  }
+}
