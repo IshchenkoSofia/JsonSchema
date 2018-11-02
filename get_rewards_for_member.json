@@ -98,8 +98,7 @@
                 "default": "",
                 "examples": [
                   "Fakta"
-                ],
-                "pattern": "^(.*)$"
+                ]
               }
             }
           },
@@ -110,8 +109,7 @@
             "default": "",
             "examples": [
               "Gave FRE Fakta"
-            ],
-            "pattern": "^(.*)$"
+            ]
           },
           "itemDescription": {
             "$id": "#/items/properties/activityInfo/properties/itemDescription",
@@ -120,8 +118,7 @@
             "default": "",
             "examples": [
               "Sådan får du gaven:\r\nLæg varen på båndet og registrér din Coop app\r\neller dit medlemskort i kassen.\r\nSå fratrækkes hele beløbet når varen scannes."
-            ],
-            "pattern": "^(.*)$"
+            ]
           },
           "price": {
             "$id": "#/items/properties/activityInfo/properties/price",
@@ -158,8 +155,7 @@
                 "default": "",
                 "examples": [
                   "Værdi"
-                ],
-                "pattern": "^(.*)$"
+                ]
               },
               "suffix": {
                 "$id": "#/items/properties/activityInfo/properties/normalPrice/properties/suffix",
@@ -168,8 +164,7 @@
                 "default": "",
                 "examples": [
                   "Kr."
-                ],
-                "pattern": "^(.*)$"
+                ]
               }
             }
           },
@@ -180,8 +175,7 @@
             "default": "",
             "examples": [
               "Kg-pris 0,00."
-            ],
-            "pattern": "^(.*)$"
+            ]
           },
           "savingsStatement": {
             "$id": "#/items/properties/activityInfo/properties/savingsStatement",
@@ -208,8 +202,7 @@
                 "default": "",
                 "examples": [
                   "Kød & Pålæg"
-                ],
-                "pattern": "^(.*)$"
+                ]
               },
               "sortering": {
                 "$id": "#/items/properties/activityInfo/properties/category/properties/sortering",
@@ -229,8 +222,7 @@
             "default": "",
             "examples": [
               "Gift"
-            ],
-            "pattern": "^(.*)$"
+            ]
           },
           "itemQuantityDescription": {
             "$id": "#/items/properties/activityInfo/properties/itemQuantityDescription",
@@ -239,8 +231,7 @@
             "default": "",
             "examples": [
               "1 stk."
-            ],
-            "pattern": "^(.*)$"
+            ]
           },
           "itemAmountDescription": {
             "$id": "#/items/properties/activityInfo/properties/itemAmountDescription",
@@ -249,8 +240,7 @@
             "default": "",
             "examples": [
               "500 g."
-            ],
-            "pattern": "^(.*)$"
+            ]
           },
           "itemAmountLimitationsDescription": {
             "$id": "#/items/properties/activityInfo/properties/itemAmountLimitationsDescription",
@@ -259,8 +249,7 @@
             "default": "",
             "examples": [
               "Maks. 1 i tilbudsperioden"
-            ],
-            "pattern": "^(.*)$"
+            ]
           },
           "isFreeChoice": {
             "$id": "#/items/properties/activityInfo/properties/isFreeChoice",
@@ -296,8 +285,7 @@
             "default": "",
             "examples": [
               "2018-10-24T00:00:00"
-            ],
-            "pattern": "^(.*)$"
+            ]
           },
           "validToDate": {
             "$id": "#/items/properties/activityInfo/properties/validToDate",
@@ -306,8 +294,7 @@
             "default": "",
             "examples": [
               "2018-12-30T23:59:59"
-            ],
-            "pattern": "^(.*)$"
+            ]
           },
           "imageUrls": {
             "$id": "#/items/properties/activityInfo/properties/imageUrls",
@@ -330,8 +317,7 @@
                   "default": "",
                   "examples": [
                     "PortalSmall"
-                  ],
-                  "pattern": "^(.*)$"
+                  ]
                 },
                 "pictureSize": {
                   "$id": "#/items/properties/activityInfo/properties/imageUrls/items/properties/pictureSize",
@@ -369,8 +355,7 @@
                   "default": "",
                   "examples": [
                     "https://coopplusdkdemo.intra.coop/tilbudImage.axd?id=0&bg=/upload/tilbudBilleder/L182903418618154.jpg&sub=/upload/tilbudBilleder/L182903418618154.jpg&subsub=/Images/FotoPaaVej.jpg"
-                  ],
-                  "pattern": "^(.*)$"
+                  ]
                 }
               }
             }
@@ -393,8 +378,7 @@
         "default": "",
         "examples": [
           "Gift"
-        ],
-        "pattern": "^(.*)$"
+        ]
       },
       "usagesMax": {
         "$id": "#/items/properties/usagesMax",
@@ -421,8 +405,7 @@
         "default": "",
         "examples": [
           "2018-10-24T00:00:00"
-        ],
-        "pattern": "^(.*)$"
+        ]
       },
       "validToDate": {
         "$id": "#/items/properties/validToDate",
@@ -431,8 +414,7 @@
         "default": "",
         "examples": [
           "2018-12-30T23:59:59"
-        ],
-        "pattern": "^(.*)$"
+        ]
       }
     }
   }
