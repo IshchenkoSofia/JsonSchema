@@ -1,0 +1,439 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "http://example.com/root.json",
+  "type": "array",
+  "title": "The Root Schema",
+  "items": {
+    "$id": "#/items",
+    "type": "object",
+    "title": "The Items Schema",
+    "required": [
+      "activityId",
+      "activityInfo",
+      "type",
+      "usagesMax",
+      "usagesRemaining",
+      "validFromDate",
+      "validToDate"
+    ],
+    "properties": {
+      "activityId": {
+        "$id": "#/items/properties/activityId",
+        "type": "integer",
+        "title": "The Activityid Schema",
+        "default": 0,
+        "examples": [
+          182903402171748
+        ]
+      },
+      "activityInfo": {
+        "$id": "#/items/properties/activityInfo",
+        "type": "object",
+        "title": "The Activityinfo Schema",
+        "required": [
+          "id",
+          "activityId",
+          "chain",
+          "title",
+          "itemDescription",
+          "price",
+          "normalPrice",
+          "priceComparison",
+          "savingsStatement",
+          "category",
+          "offerType",
+          "itemQuantityDescription",
+          "itemAmountDescription",
+          "itemAmountLimitationsDescription",
+          "isFreeChoice",
+          "isAnglemark",
+          "isEcological",
+          "validFromDate",
+          "validToDate",
+          "imageUrls",
+          "bonus"
+        ],
+        "properties": {
+          "id": {
+            "$id": "#/items/properties/activityInfo/properties/id",
+            "type": "integer",
+            "title": "The Id Schema",
+            "default": 0,
+            "examples": [
+              182903418618154
+            ]
+          },
+          "activityId": {
+            "$id": "#/items/properties/activityInfo/properties/activityId",
+            "type": "integer",
+            "title": "The Activityid Schema",
+            "default": 0,
+            "examples": [
+              182903402171748
+            ]
+          },
+          "chain": {
+            "$id": "#/items/properties/activityInfo/properties/chain",
+            "type": "object",
+            "title": "The Chain Schema",
+            "required": [
+              "id",
+              "name"
+            ],
+            "properties": {
+              "id": {
+                "$id": "#/items/properties/activityInfo/properties/chain/properties/id",
+                "type": "integer",
+                "title": "The Id Schema",
+                "default": 0,
+                "examples": [
+                  8
+                ]
+              },
+              "name": {
+                "$id": "#/items/properties/activityInfo/properties/chain/properties/name",
+                "type": "string",
+                "title": "The Name Schema",
+                "default": "",
+                "examples": [
+                  "Fakta"
+                ],
+                "pattern": "^(.*)$"
+              }
+            }
+          },
+          "title": {
+            "$id": "#/items/properties/activityInfo/properties/title",
+            "type": "string",
+            "title": "The Title Schema",
+            "default": "",
+            "examples": [
+              "Gave FRE Fakta"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "itemDescription": {
+            "$id": "#/items/properties/activityInfo/properties/itemDescription",
+            "type": "string",
+            "title": "The Itemdescription Schema",
+            "default": "",
+            "examples": [
+              "Sådan får du gaven:\r\nLæg varen på båndet og registrér din Coop app\r\neller dit medlemskort i kassen.\r\nSå fratrækkes hele beløbet når varen scannes."
+            ],
+            "pattern": "^(.*)$"
+          },
+          "price": {
+            "$id": "#/items/properties/activityInfo/properties/price",
+            "type": "null",
+            "title": "The Price Schema",
+            "default": null,
+            "examples": [
+              null
+            ]
+          },
+          "normalPrice": {
+            "$id": "#/items/properties/activityInfo/properties/normalPrice",
+            "type": "object",
+            "title": "The Normalprice Schema",
+            "required": [
+              "value",
+              "text",
+              "suffix"
+            ],
+            "properties": {
+              "value": {
+                "$id": "#/items/properties/activityInfo/properties/normalPrice/properties/value",
+                "type": "number",
+                "title": "The Value Schema",
+                "default": 0.0,
+                "examples": [
+                  7.95
+                ]
+              },
+              "text": {
+                "$id": "#/items/properties/activityInfo/properties/normalPrice/properties/text",
+                "type": "string",
+                "title": "The Text Schema",
+                "default": "",
+                "examples": [
+                  "Værdi"
+                ],
+                "pattern": "^(.*)$"
+              },
+              "suffix": {
+                "$id": "#/items/properties/activityInfo/properties/normalPrice/properties/suffix",
+                "type": "string",
+                "title": "The Suffix Schema",
+                "default": "",
+                "examples": [
+                  "Kr."
+                ],
+                "pattern": "^(.*)$"
+              }
+            }
+          },
+          "priceComparison": {
+            "$id": "#/items/properties/activityInfo/properties/priceComparison",
+            "type": "string",
+            "title": "The Pricecomparison Schema",
+            "default": "",
+            "examples": [
+              "Kg-pris 0,00."
+            ],
+            "pattern": "^(.*)$"
+          },
+          "savingsStatement": {
+            "$id": "#/items/properties/activityInfo/properties/savingsStatement",
+            "type": "null",
+            "title": "The Savingsstatement Schema",
+            "default": null,
+            "examples": [
+              null
+            ]
+          },
+          "category": {
+            "$id": "#/items/properties/activityInfo/properties/category",
+            "type": "object",
+            "title": "The Category Schema",
+            "required": [
+              "name",
+              "sortering"
+            ],
+            "properties": {
+              "name": {
+                "$id": "#/items/properties/activityInfo/properties/category/properties/name",
+                "type": "string",
+                "title": "The Name Schema",
+                "default": "",
+                "examples": [
+                  "Kød & Pålæg"
+                ],
+                "pattern": "^(.*)$"
+              },
+              "sortering": {
+                "$id": "#/items/properties/activityInfo/properties/category/properties/sortering",
+                "type": "integer",
+                "title": "The Sortering Schema",
+                "default": 0,
+                "examples": [
+                  1
+                ]
+              }
+            }
+          },
+          "offerType": {
+            "$id": "#/items/properties/activityInfo/properties/offerType",
+            "type": "string",
+            "title": "The Offertype Schema",
+            "default": "",
+            "examples": [
+              "Gift"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "itemQuantityDescription": {
+            "$id": "#/items/properties/activityInfo/properties/itemQuantityDescription",
+            "type": "string",
+            "title": "The Itemquantitydescription Schema",
+            "default": "",
+            "examples": [
+              "1 stk."
+            ],
+            "pattern": "^(.*)$"
+          },
+          "itemAmountDescription": {
+            "$id": "#/items/properties/activityInfo/properties/itemAmountDescription",
+            "type": "string",
+            "title": "The Itemamountdescription Schema",
+            "default": "",
+            "examples": [
+              "500 g."
+            ],
+            "pattern": "^(.*)$"
+          },
+          "itemAmountLimitationsDescription": {
+            "$id": "#/items/properties/activityInfo/properties/itemAmountLimitationsDescription",
+            "type": "string",
+            "title": "The Itemamountlimitationsdescription Schema",
+            "default": "",
+            "examples": [
+              "Maks. 1 i tilbudsperioden"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "isFreeChoice": {
+            "$id": "#/items/properties/activityInfo/properties/isFreeChoice",
+            "type": "boolean",
+            "title": "The Isfreechoice Schema",
+            "default": false,
+            "examples": [
+              false
+            ]
+          },
+          "isAnglemark": {
+            "$id": "#/items/properties/activityInfo/properties/isAnglemark",
+            "type": "boolean",
+            "title": "The Isanglemark Schema",
+            "default": false,
+            "examples": [
+              false
+            ]
+          },
+          "isEcological": {
+            "$id": "#/items/properties/activityInfo/properties/isEcological",
+            "type": "boolean",
+            "title": "The Isecological Schema",
+            "default": false,
+            "examples": [
+              false
+            ]
+          },
+          "validFromDate": {
+            "$id": "#/items/properties/activityInfo/properties/validFromDate",
+            "type": "string",
+            "title": "The Validfromdate Schema",
+            "default": "",
+            "examples": [
+              "2018-10-24T00:00:00"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "validToDate": {
+            "$id": "#/items/properties/activityInfo/properties/validToDate",
+            "type": "string",
+            "title": "The Validtodate Schema",
+            "default": "",
+            "examples": [
+              "2018-12-30T23:59:59"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "imageUrls": {
+            "$id": "#/items/properties/activityInfo/properties/imageUrls",
+            "type": "array",
+            "title": "The Imageurls Schema",
+            "items": {
+              "$id": "#/items/properties/activityInfo/properties/imageUrls/items",
+              "type": "object",
+              "title": "The Items Schema",
+              "required": [
+                "pictureType",
+                "pictureSize",
+                "url"
+              ],
+              "properties": {
+                "pictureType": {
+                  "$id": "#/items/properties/activityInfo/properties/imageUrls/items/properties/pictureType",
+                  "type": "string",
+                  "title": "The Picturetype Schema",
+                  "default": "",
+                  "examples": [
+                    "PortalSmall"
+                  ],
+                  "pattern": "^(.*)$"
+                },
+                "pictureSize": {
+                  "$id": "#/items/properties/activityInfo/properties/imageUrls/items/properties/pictureSize",
+                  "type": "object",
+                  "title": "The Picturesize Schema",
+                  "required": [
+                    "width",
+                    "height"
+                  ],
+                  "properties": {
+                    "width": {
+                      "$id": "#/items/properties/activityInfo/properties/imageUrls/items/properties/pictureSize/properties/width",
+                      "type": "integer",
+                      "title": "The Width Schema",
+                      "default": 0,
+                      "examples": [
+                        121
+                      ]
+                    },
+                    "height": {
+                      "$id": "#/items/properties/activityInfo/properties/imageUrls/items/properties/pictureSize/properties/height",
+                      "type": "integer",
+                      "title": "The Height Schema",
+                      "default": 0,
+                      "examples": [
+                        121
+                      ]
+                    }
+                  }
+                },
+                "url": {
+                  "$id": "#/items/properties/activityInfo/properties/imageUrls/items/properties/url",
+                  "type": "string",
+                  "title": "The Url Schema",
+                  "default": "",
+                  "examples": [
+                    "https://coopplusdkdemo.intra.coop/tilbudImage.axd?id=0&bg=/upload/tilbudBilleder/L182903418618154.jpg&sub=/upload/tilbudBilleder/L182903418618154.jpg&subsub=/Images/FotoPaaVej.jpg"
+                  ],
+                  "pattern": "^(.*)$"
+                }
+              }
+            }
+          },
+          "bonus": {
+            "$id": "#/items/properties/activityInfo/properties/bonus",
+            "type": "null",
+            "title": "The Bonus Schema",
+            "default": null,
+            "examples": [
+              null
+            ]
+          }
+        }
+      },
+      "type": {
+        "$id": "#/items/properties/type",
+        "type": "string",
+        "title": "The Type Schema",
+        "default": "",
+        "examples": [
+          "Gift"
+        ],
+        "pattern": "^(.*)$"
+      },
+      "usagesMax": {
+        "$id": "#/items/properties/usagesMax",
+        "type": "integer",
+        "title": "The Usagesmax Schema",
+        "default": 0,
+        "examples": [
+          1
+        ]
+      },
+      "usagesRemaining": {
+        "$id": "#/items/properties/usagesRemaining",
+        "type": "integer",
+        "title": "The Usagesremaining Schema",
+        "default": 0,
+        "examples": [
+          1
+        ]
+      },
+      "validFromDate": {
+        "$id": "#/items/properties/validFromDate",
+        "type": "string",
+        "title": "The Validfromdate Schema",
+        "default": "",
+        "examples": [
+          "2018-10-24T00:00:00"
+        ],
+        "pattern": "^(.*)$"
+      },
+      "validToDate": {
+        "$id": "#/items/properties/validToDate",
+        "type": "string",
+        "title": "The Validtodate Schema",
+        "default": "",
+        "examples": [
+          "2018-12-30T23:59:59"
+        ],
+        "pattern": "^(.*)$"
+      }
+    }
+  }
+}
