@@ -1,5 +1,43 @@
 {
-    "reservationId": "00246a21-1a28-4b21-ad58-624fb9509d2e",
-    "isWin": true,
-    "timestamp": "2018-11-02T11:45:56.8125587+01:00"
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "http://example.com/root.json",
+  "type": "object",
+  "title": "The Root Schema",
+  "required": [
+    "reservationId",
+    "isWin",
+    "timestamp"
+  ],
+  "properties": {
+    "reservationId": {
+      "$id": "#/properties/reservationId",
+      "type": "string",
+      "title": "The Reservationid Schema",
+      "default": "",
+      "examples": [
+        "00246a21-1a28-4b21-ad58-624fb9509d2e"
+      ],
+      "pattern": "^(.*)$"
+    },
+    "isWin": {
+      "$id": "#/properties/isWin",
+      "type": "boolean",
+      "title": "The Iswin Schema",
+      "default": false,
+      "examples": [
+        true
+      ]
+    },
+    "timestamp": {
+      "$id": "#/properties/timestamp",
+      "type": "string",
+      "title": "The Timestamp Schema",
+      "default": "",
+      "examples": [
+        "2018-11-02T11:45:56.8125587+01:00"
+      ],
+      "pattern": "^(.*)$"
+    }
+  }
 }
